@@ -1,7 +1,7 @@
 <template>
   <div>
     <MyprimSection/>
-    <MysecondSection/>
+    <MysecondSection :links="links"/>
     <MyterzaSection/>
     <MyquartaSection/>
 
@@ -22,10 +22,14 @@ import MyquartaSection from '@/components/MyquartaSection.vue'
         MysecondSection,
         MyterzaSection,
         MyquartaSection
-      }
+      },
+       props:{
+        links:Array
+    }
   };
 
 </script>
+ 
 
-<style>
-</style>
+<style lang="scss">
+</style >
