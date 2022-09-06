@@ -1,6 +1,6 @@
 <template>
     <section class="seconda" >
-        <div class="container" v-for="(link ,index) in links" :key="index" :links="links">
+        <div class="container" v-for="(links ,index) in links" :key="index" :links="links">
             <span>{{links.t1}}</span>
             <h2>{{link.t2}}</h2>
             <ul>
