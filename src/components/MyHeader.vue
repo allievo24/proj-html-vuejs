@@ -1,16 +1,35 @@
 <template>
-  <div>
-    MyHeader
-  </div>
+   <div> 
+     <MyNavbar/>
+     <MyJambo/>
+
+   </div>
+    
+    
+ 
+    
+  
 </template>
 
 <script>
+
+
+import MyNavbar from '@/components/MyNavbar.vue'; 
+import MyJambo from '@/components/MyJambo.vue';  
+
+
 export default {
-    name:'MyHeader'
+    name:'MyHeader',
+    
+    components: {
+        MyNavbar, 
+        MyJambo      
+  }
 
 }
 </script>
 
-<style>
+<style lang="scss">
+  
 
 </style>

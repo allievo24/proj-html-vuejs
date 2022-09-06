@@ -1,34 +1,40 @@
 <template>
   <div id="app">
    <MyHeader/>
-   <MyFooter/>
+  
    <MyMain/>
+    <MyFooter/>
+   
   </div>
 </template>
 
 <script>
-import MyHeader from './components/MyHeader.vue'
-import MyMain from './components/MyMain.vue'
-import MyFooter from './components/MyFooter.vue'
+import MyMain from '@/components/MyMain.vue';
+import MyFooter from '@/components/MyFooter.vue';
+import MyHeader from '@/components/MyHeader.vue';
+
+
+
+
+
 
 
 export default {
   name: 'App',
   components: {
-    MyHeader,
-    MyMain,
-    MyFooter
+   MyHeader,
+   MyMain,
+   MyFooter
   }
 }
 </script>
 
 <style lang="scss">
+    @import "./styles/generali.scss";
+    @import '~@fortawesome/fontawesome-free/css/all.css';
+     
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+ 
 }
 </style>

@@ -1,13 +1,12 @@
 <template>
-  <div>
-    MyFOOTER
-  </div>
-  
+  <section class="quarta">
+
+  </section>
 </template>
 
 <script>
 export default {
-    name:'MyFooter',
+    name:'MyquartaSection'
 
 }
 </script>
