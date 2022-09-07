@@ -3,8 +3,15 @@
     <div class="container">
      <span>OUR BUSINESS AREAS</span>
      <h3>Excellence in Services</h3>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aut odio temporibus sed nostrum libero quisquam doloribus ad laudantium nulla quaerat <br> ab quidem porro tempora culpa adipisci, fuga error quis?</p>
-     <span>SELL ALL</span>
+     <div class="containerTitoli">
+         <div class="testo">
+          <p>We are leaders in providing consultancy services with a set of cutting-edge technologies and a team of //experienced and renowned professionals. These are some options that you can hire.</p>
+         </div>
+        <div class="botton">
+          SELL ALL
+        </div>   
+     </div>
+     
       </div>
       <div class="containerCard">
           <div class="card" v-for="(card , index) in cards" :key="index" :cards="cards">
@@ -46,6 +53,22 @@ export default {
    .container{
      padding:2rem 3rem ;
      border: 2px solid red;
+     .containerTitoli{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      color: white;
+      .testo{
+        width: 75%;
+        border: 2px solid red;
+      }
+      .botton{
+        border: 2px solid rgb(0, 171, 167);
+        padding:0.5rem;
+      }
+
+   
+     }
      span{
       color:rgb(0, 171, 167) ;
      }
@@ -54,7 +77,7 @@ export default {
        }
      P{
       color: rgb(189, 190, 180);
-      display: inline;
+      
        
      
       
