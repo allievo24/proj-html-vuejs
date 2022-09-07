@@ -89,29 +89,27 @@ export default {
                 {
                  nome: 'David Cooper',
                  job:'CTO & CO-FOUNDER',
-                 img:'team-1'
+                 img:'@/assets/img/team-1.jpg',
+
                 },
                 {
                   nome:'Oliver Jones',
                   job:'CHEF PROCUREMENT',
-                  img:'team-3'
+                  img:'@/assets/img/team-3.jpg',
+
                 },
                  {
                  nome: 'Emma Lopez',
                  job:'CHEF MARKETING',
-                 img:'team-2',
+                 img:'@/assets/img/team-2.jpg',
                 },
                 {
                   nome:'T.Johnson',
                   job:'CEO & PRESIDENT',
-                  img:'team-4'
-                },
-                {
-                  icone:['fa-square-facebook','fa-twitter','fa-linkedin']
-                },
-              
+                  img:'../assets/img/team-4.jpg',
 
-            
+                },
+               
             
                
                
