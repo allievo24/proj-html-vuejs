@@ -23,6 +23,7 @@ export default {
     text-align: center;
     width: 70%;
     margin:auto;
+   
     img{
         width: 100%;
         

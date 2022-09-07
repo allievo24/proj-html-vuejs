@@ -1,7 +1,7 @@
 <template>
-  <div class="terza">
+  <section class="terza">
 
-  </div>
+  </section>
 </template>
 
 <script>
@@ -11,6 +11,13 @@ export default {
 }
 </script>
 
-<style>
+
+<style lang="scss">
+.terza{
+  border:2px solid red;
+  height: 300px;
+
+}
+ 
 
 </style>

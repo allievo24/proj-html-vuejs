@@ -28,10 +28,7 @@ export default {
     data(){
         return{
            links:[
-              {
-                t1:'WHAT ARE WE DOING',
-                t2:'Results in Numners'
-              },
+             
              {
                text:'Certification',
                number:'120', 
@@ -66,6 +63,7 @@ export default {
 
 <style lang="scss">
     @import '~@fortawesome/fontawesome-free/css/all.css';
+    @import './styles/generali.scss';
      
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
