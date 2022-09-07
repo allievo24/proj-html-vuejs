@@ -25,7 +25,7 @@ export default {
 .jambo {
   background-image: url("@/assets/img/bg-2.jpg");
   border: 2px solid;
-  min-height: 500px;
+  height: 500px;
   width: 100%;
   background-position: 50% 50%;
   background-attachment: fixed;
