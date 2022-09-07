@@ -1,7 +1,7 @@
 <template>
   <div id="app">
    <MyHeader/>,
-   <MyMain :links="links" :cards="cards" />
+   <MyMain :links="links" :cards="cards" :teams="teams"/>
    <MyFooter/>
   </div>
 </template>
@@ -84,7 +84,39 @@ export default {
                     titolo:'Regulatory Risk',
                     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
                   }
-                ] 
+                 ],
+          teams:[
+                {
+                 nome: 'David Cooper',
+                 job:'CTO & CO-FOUNDER',
+                 img:'team-1.jpg',
+                },
+                {
+                  nome:'Oliver Jones',
+                  job:'CHEF PROCUREMENT',
+                  img:'@/assets/img/team-3.jpg'
+                },
+                 {
+                 nome: 'Emma Lopez',
+                 job:'CHEF MARKETING',
+                 img:'@/assets/img/team-2.jpg',
+                },
+                {
+                  nome:'T.Johnson',
+                  job:'CEO & PRESIDENT',
+                  img:'@/assets/img/team-4.jpg'
+                },
+                {
+                  icone:['fa-square-facebook','fa-twitter','fa-linkedin']
+                }
+              
+
+            
+            
+               
+               
+               
+               ],       
         }
     },
 }

@@ -3,7 +3,7 @@
     <MyprimSection/>
     <MysecondSection :links="links"/>
     <MyterzaSection :cards="cards"/>
-    <MyquartaSection/>
+    <MyquartaSection :teams="teams"/>
 
   </div>
 </template>
@@ -25,7 +25,8 @@ import MyquartaSection from '@/components/MyquartaSection.vue'
       },
        props:{
         links:Array,
-        cards:Array
+        cards:Array,
+        teams:Array
     }
   };
 
