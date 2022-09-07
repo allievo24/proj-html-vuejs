@@ -1,14 +1,18 @@
 <template>
     <section class="seconda" >
-        <div class="container" v-for="(links ,index) in links" :key="index" :links="links">
-            <span>{{links.t1}}</span>
+        <div class="container" v-for="(link ,index) in links" :key="index" :links="links">
+            <div class="titolo">
+            <span>{{link.t1}}</span>
             <h2>{{link.t2}}</h2>
-            <ul>
-                <li>
-                    <a :href="link.url">{{link.text}}</a>
-                    {{linkS.number}}
-                </li>
-            </ul>
+            </div>
+            <div class="link">
+                <ul>
+                    <li>{{link.number}}</li> 
+                    <li><a :href="link.url">{{link.text}}</a></li>
+        
+                </ul>
+           </div>
+        
         </div>
 
     </section>
@@ -25,14 +29,34 @@ export default {
 </script>
 
 <style lang="scss">
-  .seconda{
-    height: 500px;
-    border: 2px solid black;
-    .container{
-        background: blue;
+  
+    section{
+         
+          border:2px solid red;
+         
+        
     }
-  }
+    
+    .container{
+   
+        border: 2px solid black;
+       
+      ul{
+        text-align: center;
+      }
+      li{
+        display:block;
+        width: calc(100% / 4);
+      border: 2px solid yellow;
 
+
+        
+
+      }
+     
+    }
+  
+  
    
 
 </style>
