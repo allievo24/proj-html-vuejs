@@ -2,7 +2,6 @@
    <div> 
      <MyNavbar/>
      <MyJambo/>
-
    </div>
     
     

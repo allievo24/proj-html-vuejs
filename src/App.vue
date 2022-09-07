@@ -1,9 +1,8 @@
 <template>
   <div id="app">
    <MyHeader/>,
-   <MyMain :links="links"/>
+   <MyMain :links="links" :cards="cards" />
    <MyFooter/>
-   
   </div>
 </template>
 
@@ -53,7 +52,39 @@ export default {
                url:'#'
 
              },
-           ] 
+           ],
+           cards:[
+                  { icone:"fa-solid fa-network-wired",
+                    titolo:'Audit & Assurance',
+                    text:'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+                  },
+                  {
+                    icone:"fa-solid fa-briefcase",
+                    titolo:'Financial Advisory',
+                    text:'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+                  },
+                  
+                  { 
+                    icone:"fa-solid fa-chart-simple",
+                    titolo:'Analytics and M&A',
+                    text:'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+                  },
+                  {
+                    icone:"fa-solid fa-plane",
+                    titolo:'Middele Marketing',
+                    text:'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+                  },
+                  {
+                    icone:"fa-solid fa-globe",
+                    titolo:'Legal Consulting',
+                    text:'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+                  },
+                  {
+                    icone:"fa-solid fa-hard-drive",
+                    titolo:'Regulatory Risk',
+                    text:'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+                  }
+                ] 
         }
     },
 }

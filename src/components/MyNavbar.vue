@@ -16,6 +16,9 @@
     <i class="fa-brands fa-square-facebook"></i>
     <i class="fa-brands fa-twitter"></i>
     <i class="fa-brands fa-linkedin"></i>
+   
+      
+
   </nav>
 </template>
 
