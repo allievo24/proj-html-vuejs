@@ -116,17 +116,13 @@ export default {
                
                  ],
            News: [
+               
                 {
-                  span:'OUR EDITORIAL CONTENT',
-                  h2:'Latest News',
-                  p:'Everry week we publish content about what is best in the business world.'
-                },
-                {
-                  img:'@/assets/img/news-1.jpg',
+                  img:'news-1',
                   text:'Increasing ceativity is possible for everyone'
                 },
                 {
-                  img:'src/assets/img/news-1.jpg',
+                  img:'../../assets/img/news-1.jpg',
                   text:'Because market research is of the business'
                 },
                 {
