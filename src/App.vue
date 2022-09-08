@@ -1,7 +1,7 @@
 <template>
   <div id="app">
    <MyHeader/>,
-   <MyMain :links="links" :cards="cards" :teams="teams"/>
+   <MyMain :links="links" :cards="cards" :teams="teams" :News="News"/>
    <MyFooter/>
   </div>
 </template>
@@ -53,7 +53,7 @@ export default {
 
              },
            ],
-           cards:[
+          cards: [
                   { icone:"fa-solid fa-network-wired",
                     titolo:'Audit & Assurance',
                     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
@@ -85,7 +85,7 @@ export default {
                     text:'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
                   }
                  ],
-          teams:[
+          teams: [
                 {
                  nome: 'David Cooper',
                  job:'CTO & CO-FOUNDER',
@@ -114,7 +114,27 @@ export default {
                
                
                
-               ],       
+                 ],
+           News: [
+                {
+                  span:'OUR EDITORIAL CONTENT',
+                  h2:'Latest News',
+                  p:'Everry week we publish content about what is best in the business world.'
+                },
+                {
+                  img:'@/assets/img/news-1.jpg',
+                  text:'Increasing ceativity is possible for everyone'
+                },
+                {
+                  img:'src/assets/img/news-1.jpg',
+                  text:'Because market research is of the business'
+                },
+                {
+                  img:'src/assets/img/news-1.jpg',
+                  text:'Working from home now a treand'
+                },
+
+                 ],      
         }
     },
 }

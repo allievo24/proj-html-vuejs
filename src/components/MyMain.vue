@@ -4,6 +4,7 @@
     <MysecondSection :links="links"/>
     <MyterzaSection :cards="cards"/>
     <MyquartaSection :teams="teams"/>
+    <MyquintaSection :News="News"/>
 
   </div>
 </template>
@@ -13,6 +14,8 @@ import MyprimSection from '@/components/MyprimSection.vue';
 import MysecondSection from'@/components/MysecondSection.vue'
 import MyterzaSection from '@/components/MyterzaSection.vue' 
 import MyquartaSection from '@/components/MyquartaSection.vue' 
+import MyquintaSection from '@/components/MyquintaSection.vue' 
+
 
 
   export default {
@@ -21,12 +24,14 @@ import MyquartaSection from '@/components/MyquartaSection.vue'
         MyprimSection,
         MysecondSection,
         MyterzaSection,
-        MyquartaSection
+        MyquartaSection,
+        MyquintaSection
       },
        props:{
         links:Array,
         cards:Array,
-        teams:Array
+        teams:Array,
+        News:Array
     }
   };
 
